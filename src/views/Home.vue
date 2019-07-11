@@ -1,13 +1,25 @@
 <template>
   <div>
-    <header>
-      <h1>
-        Hi, I'm
-        <span class="highlight">Reniel Salvador</span>
-      </h1>
-      <h3>I'm a full-stack web developer.</h3>
-      <a href>View my work</a>
-    </header>
+    <section class="hero is-fullheight has-text-centered">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-10 is-offset-1">
+              <h1 class="title">
+                Hi, I'm
+                <span class="highlight">Reniel Salvador</span>.
+              </h1>
+              <h2 class="subtitle">I'm a full-stack web developer.</h2>
+              <a href class="is-pulled-right">
+                View my work
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <nav>
       <ul>
         <li>Home</li>
