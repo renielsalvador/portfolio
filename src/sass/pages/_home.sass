@@ -1,0 +1,184 @@
+.content.container 
+    margin-top: 2rem
+
+
+h2.title 
+    text-align: center
+    color: #00334E
+    font-size: 2.3rem
+    letter-spacing: .1rem
+    flex-grow: 1
+
+.content section
+    padding: .75rem 0
+
+
+ul.offers
+  justify-content: center
+  margin-left: 0
+  width: 58%
+  margin: auto
+  display:  flex
+
+  & li
+    margin: 0 !important;
+    list-style: none;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    align-self: center;
+
+    &:nth-child(2)
+      margin: 0 !important;
+      flex: 1 110%;
+
+      & h4
+        font-size: 1.7rem;
+        color: #0acac4;
+
+      & article
+        background-color: white;
+        box-shadow: 0px 0px 40px #bdbcbc;
+        padding: 1.8rem;
+      
+      & p
+        font-size: 1rem;
+        line-height: 1.8rem;
+
+    & article
+      padding: 1.2rem
+      background: linear-gradient(to right, #C6c6c6 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(#C6c6c6 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(to right,#C6c6c6 50%, rgba(255, 255, 255, 0) 0%), linear-gradient(#C6c6c6 50%, rgba(255, 255, 255, 0) 0%);
+      background-position: top, right, bottom, left;
+      background-repeat: repeat-x, repeat-y;
+      background-size: 25px 1.2px, 1.2px 25px;
+
+      & h4 
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        color: #5be0dc;
+
+      & hr
+        height: 1px;
+        margin: 1.2rem 1.5rem;
+
+      & p
+        font-family: Roboto, Assistant, sans-serif;
+        font-weight: 300;
+        color: #757575;
+        font-size: .8rem;
+        line-height: 1.3rem;
+    
+
+    
+.about article.about-me
+    display: flex;
+    flex-direction: row;
+
+.about-me-start
+    flex-grow: 1;
+    display: flex;
+
+.skills-percentage
+  flex: 55%;
+
+span.avatar 
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 50%;
+    border: 8px solid #d4d2d2;
+    box-sizing: border-box;
+
+
+.information 
+    flex: 1;
+    padding: 0 2rem;
+    margin-top: 1rem;
+
+
+.about-me h5.title 
+    color: #ea1f67;
+    letter-spacing: .1rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+    position: relative;
+
+
+.about-me h5.title:after 
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    background-color: #e0dddd;
+    width: 35px;
+    bottom: -9px;
+
+
+
+
+.skills-percentage ul.skills
+  margin-left: 0;
+  list-style: none;
+
+
+.skills-percentage .skills h6
+    text-align: center;
+    font-weight: 200;
+
+
+input[type="range"]
+    width: 100%;
+
+
+.bar
+    /* padding: 2px; */
+    /* border: .5px solid #ececec; */
+    position: relative;
+
+
+input[type="range"]::-webkit-slider-runnable-track
+    background-color: #dbf3f5;
+    border-radius: 2px;
+    /* border: 1px solid gray; */
+    /* padding: 1px; */
+
+
+span.progress-bar
+    position: absolute;
+    background: red;
+    display: inline-block;
+    /* font-size: 1rem; */
+    height: 15px;
+    box-sizing: border-box;
+    width: 10%;
+    z-index: 1;
+    border-radius: 2px;
+    margin-top: 2px;
+
+
+span.percent
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFF;
+    /* margin-top: 2px; */
+    position: absolute;
+
+
+div#thumb
+    z-index: 2;
+
+
+input[type="range" i]::-webkit-slider-thumb, 
+input[type="range" i]::-webkit-media-slider-thumb
+    -webkit-appearance: none;
+    height: 36px;
+    width: 36px;
+    border: none!important;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+    background: red!important;
+    /* top: -9px; */

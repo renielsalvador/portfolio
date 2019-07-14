@@ -20,17 +20,35 @@
       </div>
     </section>
 
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
-      </ul>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">Home</a>
+            <a class="navbar-item">About</a>
+            <a class="navbar-item">Portfolio</a>
+            <a class="navbar-item">Contact</a>
+          </div>
+        </div>
+      </div>
     </nav>
-    <div class="content">
+    <div class="content container">
       <section class="about">
-        <h2>About</h2>
+        <h2 class="title">About</h2>
         <ul class="offers">
           <li>
             <article>
@@ -54,9 +72,57 @@
             </article>
           </li>
         </ul>
+
+        <article class="about-me">
+          <div class="about-me-start">
+            <span class="avatar">
+              <img src="../assets/profile.jpg" alt="profile.jpg" />
+            </span>
+            <div class="information">
+              <h5 class="title">Who am I?</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud
+              </p>
+            </div>
+          </div>
+          <div class="skills-percentage">
+            <ul class="skills">
+              <li>
+                <h6>First skill 1</h6>
+                <div class="bar">
+                  <span class="progress-bar">
+                    <span class="percent">80%</span>
+                  </span>
+                  <input type="range" />
+                </div>
+              </li>
+              <li>
+                <h6>First skill 1</h6>
+                <div class="bar">
+                  <span class="progress-bar">
+                    <span class="percent">80%</span>
+                  </span>
+                  <input type="range" />
+                </div>
+              </li>
+              <li>
+                <h6>First skill 1</h6>
+                <div class="bar">
+                  <span class="progress-bar">
+                    <span class="percent">80%</span>
+                  </span>
+                  <input type="range" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </article>
       </section>
       <section class="projects">
-        <h2>Projects</h2>
+        <h2 class="title">Projects</h2>
         <ul>
           <li>
             <div class="img-container">

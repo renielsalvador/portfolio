@@ -1,0 +1,29 @@
+nav.navbar
+  background: #222831
+  margin-bottom: 7px
+
+  &::after 
+    content: ''
+    position: absolute
+    display: block
+    height: 7px
+    width: 100%
+    background: linear-gradient(to right, #04eccc, #e60577)
+    bottom: -7px
+
+  & a.navbar-item, navbar-link
+      color: #FFFEFE
+      padding: 0.5rem 1rem
+      font-size: 1.1rem
+
+      &.is-selected
+      &:focus, 
+      &:focus-within, 
+      &:hover, 
+      &.is-active, 
+      &:focus, 
+      &:focus-within, 
+      &:hover, 
+      &.is-active
+        background-color: #2e333c
+        color: #d61a5c !important
