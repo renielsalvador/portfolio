@@ -10,7 +10,7 @@ h2.title
     flex-grow: 1
 
 .content section
-    padding: .75rem 0
+    padding: 1rem 0
 
 
 ul.offers
@@ -181,4 +181,156 @@ input[type="range" i]::-webkit-media-slider-thumb
     z-index: 999;
     cursor: pointer;
     background: red!important;
-    /* top: -9px; */
+
+
+.projects ul.projects-list
+    margin: 0;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+.projects-list li
+    list-style: none;
+    max-height: 400px;
+    width: 33%;
+    margin: 0 !important;
+    position: relative;
+
+.img-container img 
+    width: 100%;
+
+.projects-list li .cover 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+    background-color: #171717;
+    opacity: .7;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 40px;
+
+.projects-list li .cover h3 
+    margin: 0;
+
+
+.projects-list li:hover .cover 
+    height: 100% !important;
+
+
+.projects-list li .cover h3 
+    color: #ffffff;
+
+
+.projects-list li:hover .cover h3 
+    margin-bottom: 1.2rem;
+
+
+.projects-list li .cover p 
+    display: none;
+
+
+.projects-list li:hover .cover p 
+    display: initial;
+
+
+.is-medium.input, .is-medium.textarea 
+    font-size: 1.25rem;
+
+
+section.contact
+    padding: 3rem;
+    background: #282F38;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+h2.title
+    color: #ea1f67;
+
+
+.contact .form-area 
+    width: 40%;
+    margin-bottom: 4rem;
+
+.is-aligned-right 
+    float: right;
+
+.contact .form-area .sub-title
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+    color: #b3b3b3;
+    font-weight: 300;
+
+.contact h2.title
+    margin-bottom: 1rem;
+
+.form-area .input, .form-area .textarea
+  background-color: #222831;
+  color: #FFFEFE;
+  border: 0;
+  border-radius: .1rem;
+
+.form-area input::-webkit-input-placeholder
+    color: #6b6b6b;
+
+.form-area .button
+    border: 2px solid #FFF;
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 0;
+    padding: 0px 30px;
+    font-weight: 500;
+    margin-top: .75rem;
+
+.form-area .field
+    margin-bottom: .3rem;
+
+
+
+footer 
+  display: flex;
+  padding-top: 8rem;
+  background: #038482;
+  padding-bottom: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px -4px 16px #2a2b2b;
+  position: relative;
+
+
+footer .divider
+    color: #FFFEFE;
+    position: absolute;
+    top: -45px;
+    font-size: 1.5rem;
+
+
+footer .author
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: #292525;
+
+footer .author .copyright
+    color: #b51950;
+
+.socials
+    margin-bottom: 1rem;
+
+footer .socials span.icon
+    background: #393E46;
+    border-radius: .1rem;
+    margin: .75rem;
+    color: #929090;
+
+footer .socials span.icon:hover
+    opacity: .9;

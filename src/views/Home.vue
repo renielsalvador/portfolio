@@ -123,7 +123,7 @@
       </section>
       <section class="projects">
         <h2 class="title">Projects</h2>
-        <ul>
+        <ul class="projects-list">
           <li>
             <div class="img-container">
               <img src="../assets/logo.png" alt />
@@ -153,41 +153,55 @@
           </li>
         </ul>
       </section>
-      <section class="contact">
-        <div class="flags">
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-        </div>
-        <div class="form-area">
-          <h2>Contact</h2>
-          <p class="sub-title"></p>
-          <input type="text" />
-          <input type="text" />
-          <input type="text" />
-          <textarea name cols="30" rows="10"></textarea>
-          <button>SUBMIT</button>
-        </div>
-      </section>
     </div>
+
+    <section class="contact">
+      <div class="flags">
+        <span class="flag"></span>
+        <span class="flag"></span>
+        <span class="flag"></span>
+        <span class="flag"></span>
+      </div>
+      <div class="form-area">
+        <h2 class="title">Contact</h2>
+        <p class="sub-title has-text-centered">Have questions or want to work together?</p>
+        <div class="field">
+          <div class="control">
+            <input class="input is-medium" type="text" placeholder="Info input">
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <input class="input is-medium" type="text" placeholder="Info input">
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <textarea class="textarea is-medium" name cols="10" rows="5"></textarea>
+          </div>
+        </div>
+        <button class="button is-aligned-right is-medium">SUBMIT</button>
+      </div>
+    </section>
     <footer>
-      <i class="dividier"></i>
-      <div class="social">
-        <span>
-          <i class="fa fa-facebook"></i>
+      <span class="divider">
+        <i class="fas fa-angle-double-up fa-4x"></i>
+      </span>
+      <div class="socials ">
+        <span class="icon is-large">
+          <i class="fab fa-facebook-f fa-2x"></i>
         </span>
-        <span>
-          <i class="fa fa-facebook"></i>
+        <span class="icon is-large">
+          <i class="fab fa-instagram fa-2x"></i>
         </span>
-        <span>
-          <i class="fa fa-facebook"></i>
+        <span class="icon is-large">
+          <i class="fab fa-linkedin-in fa-2x"></i>
         </span>
       </div>
-      <span>
+      <span class="author">
         RENIEL SALVADOR
         <span class="copyright">
-          <i class="fa fa-copyright"></i>2019
+          <i class="far fa-copyright"></i> 2019
         </span>
       </span>
     </footer>

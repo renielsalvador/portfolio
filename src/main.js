@@ -1,3 +1,4 @@
+import "@fortawesome/fontawesome-free"
 import '@/sass/index.sass'
 import Vue from 'vue'
 import App from './App.vue'
