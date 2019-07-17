@@ -5,12 +5,13 @@
 h2.title 
     text-align: center
     color: #00334E
-    font-size: 2.3rem
+    font-size: 3rem
     letter-spacing: .1rem
     flex-grow: 1
+    padding: 0 0 1rem
 
 .content section
-    padding: 1rem 0
+    padding: 2rem 0
 
 
 ul.offers
@@ -73,6 +74,7 @@ ul.offers
 .about article.about-me
     display: flex;
     flex-direction: row;
+    padding: 1rem 0;
 
 .about-me-start
     flex-grow: 1;
@@ -123,7 +125,7 @@ span.avatar
 
 
 .skills-percentage .skills h6
-    text-align: center;
+    margin-bottom: .5rem;
     font-weight: 200;
 
 
@@ -132,29 +134,30 @@ input[type="range"]
 
 
 .bar
-    /* padding: 2px; */
-    /* border: .5px solid #ececec; */
     position: relative;
+    background: whitesmoke;
+    border-radius: 2px;
+    height: 20px;
+    overflow: hidden;
 
 
 input[type="range"]::-webkit-slider-runnable-track
     background-color: #dbf3f5;
     border-radius: 2px;
-    /* border: 1px solid gray; */
-    /* padding: 1px; */
 
 
 span.progress-bar
-    position: absolute;
-    background: red;
+    background: #08cac5;
     display: inline-block;
-    /* font-size: 1rem; */
-    height: 15px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 10%;
-    z-index: 1;
-    border-radius: 2px;
-    margin-top: 2px;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 .5rem;
+    border-right: 2px solid #98cecc;
 
 
 span.percent
@@ -185,18 +188,28 @@ input[type="range" i]::-webkit-media-slider-thumb
 
 .projects ul.projects-list
     margin: 0;
-    width: 70%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 
 .projects-list li
     list-style: none;
     max-height: 400px;
-    width: 33%;
-    margin: 0 !important;
+    height: 400px;
+    width: 30%;
+    margin: .5em .5rem !important;
     position: relative;
+    border-radius: 2px;
+    background: #e8e8e8;
+
+.img-container 
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 .img-container img 
     width: 100%;
@@ -256,7 +269,6 @@ section.contact
 h2.title
     color: #ea1f67;
 
-
 .contact .form-area 
     width: 40%;
     margin-bottom: 4rem;
@@ -271,7 +283,7 @@ h2.title
     font-weight: 300;
 
 .contact h2.title
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 
 .form-area .input, .form-area .textarea
   background-color: #222831;
@@ -279,7 +291,8 @@ h2.title
   border: 0;
   border-radius: .1rem;
 
-.form-area input::-webkit-input-placeholder
+.form-area input::-webkit-input-placeholder, 
+.form-area textarea::-webkit-input-placeholder
     color: #6b6b6b;
 
 .form-area .button
@@ -298,7 +311,7 @@ h2.title
 
 footer 
   display: flex;
-  padding-top: 8rem;
+  padding-top: 6rem;
   background: #038482;
   padding-bottom: 1rem;
   justify-content: center;
@@ -334,3 +347,7 @@ footer .socials span.icon
 
 footer .socials span.icon:hover
     opacity: .9;
+
+
+section.projects 
+    padding: 2rem 0;

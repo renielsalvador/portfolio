@@ -96,7 +96,6 @@
                   <span class="progress-bar">
                     <span class="percent">80%</span>
                   </span>
-                  <input type="range" />
                 </div>
               </li>
               <li>
@@ -105,7 +104,6 @@
                   <span class="progress-bar">
                     <span class="percent">80%</span>
                   </span>
-                  <input type="range" />
                 </div>
               </li>
               <li>
@@ -114,7 +112,6 @@
                   <span class="progress-bar">
                     <span class="percent">80%</span>
                   </span>
-                  <input type="range" />
                 </div>
               </li>
             </ul>
@@ -126,7 +123,7 @@
         <ul class="projects-list">
           <li>
             <div class="img-container">
-              <img src="../assets/logo.png" alt />
+              <img src="http://placekitten.com/400/300" alt />
             </div>
             <div class="cover">
               <h3>Project 1</h3>
@@ -135,7 +132,7 @@
           </li>
           <li>
             <div class="img-container">
-              <img src="../assets/logo.png" alt />
+              <img src="http://placekitten.com/400/300" alt />
             </div>
             <div class="cover">
               <h3>Project 1</h3>
@@ -144,40 +141,52 @@
           </li>
           <li>
             <div class="img-container">
-              <img src="../assets/logo.png" alt />
+              <img src="http://placekitten.com/400/300" alt />
             </div>
             <div class="cover">
               <h3>Project 1</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </li>
+          <li>
+            <div class="img-container">
+              <img src="http://placekitten.com/400/300" alt />
+            </div>
+            <div class="cover">
+              <h3>Project 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </li>
+          <li>
+            <div class="img-container">
+              <img src="http://placekitten.com/400/300" alt />
+            </div>
+            <div class="cover">
+              <h3>Project 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </li> 
         </ul>
       </section>
     </div>
 
     <section class="contact">
-      <div class="flags">
-        <span class="flag"></span>
-        <span class="flag"></span>
-        <span class="flag"></span>
-        <span class="flag"></span>
-      </div>
       <div class="form-area">
         <h2 class="title">Contact</h2>
         <p class="sub-title has-text-centered">Have questions or want to work together?</p>
         <div class="field">
           <div class="control">
-            <input class="input is-medium" type="text" placeholder="Info input">
+            <input class="input is-medium" type="text" placeholder="Let's work together!">
           </div>
         </div>
         <div class="field">
           <div class="control">
-            <input class="input is-medium" type="text" placeholder="Info input">
+            <input class="input is-medium" type="text" placeholder="john.doe@gmail.com">
           </div>
         </div>
         <div class="field">
           <div class="control">
-            <textarea class="textarea is-medium" name cols="10" rows="5"></textarea>
+            <textarea class="textarea is-medium" placeholder="You are so cool!" name cols="10" rows="5"></textarea>
           </div>
         </div>
         <button class="button is-aligned-right is-medium">SUBMIT</button>
